@@ -1,0 +1,97 @@
+#nav-accessibility-popover-container.fullaccessibility-container {
+    position: relative;
+}
+
+#nav-accessibility-popover-container .popover-region-container {
+    min-width: 320px;
+}
+
+#nav-accessibility-popover-container.fullaccessibility-fallback {
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+    z-index: 2000;
+}
+
+#nav-accessibility-popover-container.fullaccessibility-fallback .popover-region-container {
+    position: absolute;
+    right: 0;
+}
+
+#nav-accessibility-popover-container .fullaccessibility-icon {
+    width: 1.25rem;
+    height: 1.25rem;
+}
+
+#nav-accessibility-popover-container button.active {
+    color: #fff;
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+}
+
+#nav-accessibility-popover-container button.active.btn-outline-danger {
+    color: #fff;
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+
+body.fullaccessibility-a11y-focus :focus-visible {
+    outline: 3px solid #0d6efd !important;
+    outline-offset: 2px !important;
+}
+
+body.fullaccessibility-a11y-underline-links a {
+    text-decoration: underline !important;
+    text-underline-offset: 2px;
+}
+
+body.fullaccessibility-a11y-readable-font {
+    font-family: Arial, Helvetica, sans-serif !important;
+}
+
+body.fullaccessibility-a11y-reduce-motion *,
+body.fullaccessibility-a11y-reduce-motion *::before,
+body.fullaccessibility-a11y-reduce-motion *::after {
+    animation: none !important;
+    transition: none !important;
+    scroll-behavior: auto !important;
+}
+
+#nav-accessibility-popover-container .fullaccessibility-content {
+    padding: .75rem;
+    width: 320px;
+    max-width: 85vw;
+    box-sizing: border-box;
+}
+
+#nav-accessibility-popover-container .fullaccessibility-section-title {
+    font-weight: 600;
+    margin-bottom: .35rem;
+}
+
+#nav-accessibility-popover-container .fullaccessibility-section-wrap {
+    display: flex;
+    gap: .5rem;
+    flex-wrap: wrap;
+}
+
+#nav-accessibility-popover-container .fullaccessibility-mb-75 {
+    margin-bottom: .75rem;
+}
+
+#nav-accessibility-popover-container .fullaccessibility-mb-50 {
+    margin-bottom: .5rem;
+}
+
+#nav-accessibility-popover-container .fullaccessibility-footer {
+    display: flex;
+    justify-content: flex-end;
+    gap: .5rem;
+}
+
+#nav-accessibility-popover-container .fullaccessibility-transcript {
+    width: 100%;
+    min-height: 88px;
+    resize: vertical;
+    font-size: 0.9rem;
+}
